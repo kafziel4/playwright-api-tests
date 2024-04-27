@@ -1,4 +1,6 @@
-export const colors = {
+import { ColorList } from '../types/colors';
+
+export const colors: ColorList = {
   page: 1,
   per_page: 6,
   total: 12,

@@ -1,4 +1,6 @@
-export const users = {
+import { UserList } from '../types/users';
+
+export const users: UserList = {
   page: 2,
   per_page: 6,
   total: 12,
